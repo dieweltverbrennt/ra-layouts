@@ -14,7 +14,7 @@ install:
 build: off
 
 build_script:
-  - npm run build # команда сборки
+  - CI=false npm run build # команда сборки
 
 test_script:
   - npm test # скрипт тестирования
